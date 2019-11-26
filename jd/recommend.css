@@ -1,0 +1,213 @@
+.jd-recommend-wrap {
+	width: 100%;
+}
+
+.jd-recommend {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.jd-recommend-title {
+	width: 1190px;
+	height: 65px;
+	text-align: center;
+}
+
+.jd-recommend-title h3 {
+	position: relative;
+	width: 200px;
+	height: 45px;
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 45px;
+	padding: 0 30px;
+	margin: 0 auto 20px;
+	overflow: hidden;
+	color: #333;
+}
+.jd-recommend-title h3:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	background-image: url(static/94.png);
+	width: 25px;
+	height: 20px;
+	left: 0px;
+}
+.jd-recommend-title h3:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	background-image: url(static/95.png);
+	background-position: -25px 0;
+	width: 25px;
+	height: 20px;
+	right: 0;
+}
+.recommend-hd {
+	width: 1190px;
+	height: 60px;
+	background-color: white;
+}
+.recommend-hd-list {
+	width: 1015px;
+	height: 60px;
+	margin: 0 auto;
+	display: flex;
+}
+.recommend-hd-list .item {
+	position: relative;
+	float: left;
+	width: 203px;
+	height: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+.recommend-hd-list .item-title {
+	color: #333;
+	margin-top: 7px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 27px;
+	height: 27px;
+}
+.recommend-hd-list .item-title1 {
+	color: #333;
+	margin-top: 7px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 27px;
+	height: 27px;
+}
+.recommend-hd-list .item-title span {
+	background: #e1251b;
+	color: #fff;
+	width: 70px;
+	height: 27px;
+	display: inline-block;
+	border-radius: 50px;
+	padding: 0 5px;
+}
+.recommend-hd-list .item-desc {
+	color: #e1251b;
+	font-size: 14px;
+}
+.recommend-hd-list .item-desc1 {
+	color: #999999;
+	font-size: 14px;
+}
+.recommend-hd-list .item-line {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 40px;
+	margin: 10px 0;
+	width: 1px;
+	background: linear-gradient(180deg,white,#dfdfdf 51%,white);
+}
+.recommend-hd-list .item:hover .item-desc1{
+	color: #CE141C;
+}
+.recommend-hd-list .item:hover .item-title1{
+	color: #CE141C;
+}
+.recommend-bd {
+	width: 1200px;
+	margin: 0 auto;
+}
+.recommend-bd-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+.recommend-bd-list .bd-list-items {
+	position: relative;
+	width: 230px;
+	height: 322px;
+	margin: 0 10px 10px 0;
+	background-color: white;
+}
+.recommend-bd-list .bd-list-items a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.recommend-bd-list .bd-list-items .list-items-img {
+	display: block;
+	margin: 30px auto 30px;
+}
+.recommend-bd-list .bd-list-items .list-items-title {
+	height: 48px;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: left;
+	color: #666;
+	transition: color .2s ease;
+	word-break: break-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	padding: 0 20px;
+}
+.recommend-bd-list .bd-list-items .list-items-price {
+	padding-left: 20px;
+	margin-top: 10px;
+}
+.recommend-bd-list .list-items-price span:nth-child(1) {
+	line-height: 18px;
+	color: #e1251b;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: 700;
+}
+.recommend-bd-list .list-items-price span:nth-child(2) {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 18px;
+	color: #e1251b;
+}
+.recommend-bd-list .list-items-find-wrap {
+	position: absolute;
+	bottom: 8px;
+	left: 0;
+	width: 100%;
+	height: 66px;
+	text-align: center;
+	display: none;
+	opacity: 0;
+	background-color: #fff;
+	background: linear-gradient(180deg,rgba(255,255,255,.8) 0,white 35%,white);
+}
+.recommend-bd-list .list-items-find {
+	height: 28px;
+	width: 120px;
+	display: inline-block;
+	font-size: 12px;
+	border: 1px solid #353131;
+	border-radius: 15px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 18px;
+	background-color: #333;
+	color: #fff !important;
+	background-color: #000000;
+}
+.items-find-icon {
+	display: inline-block;
+	margin-top: -4px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	background-size: 16px 16px;
+	margin-right: 4px;
+	background-image: url(static/136.png);
+}
+.recommend-bd-list .bd-list-items a:hover .list-items-img{
+	opacity: .8;
+}

@@ -1,0 +1,51 @@
+<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1" type="text/javascript" charset="utf-8"></script>
+<div class="city-lists">
+</div>
+<div class="horizontal-line"></div>
+<div>
+	<p>地区专享版本</p>
+	<div><a href="">中國港澳</a></div>
+</div>
+<div class="horizontal-line"></div>
+<div class="available-sites">
+	<p>Available Sites</p>
+	<ul class="countries">
+		<li><i class="national-flag1"></i><a href="">Global Site</a></li>
+		<li><i class="national-flag2"></i><a href="">Страны доставки</a></li>
+		<li><i class="national-flag3"></i><a href="">Situs Indonesia</a></li>
+		<li><i class="national-flag4"></i><a href="">Sitio de Espana</a></li>
+		<li><i class="national-flag5"></i><a href="">Перейти на сайт</a></li>
+	</ul>
+</div>
+<div id="nav-city">
+	
+</div>
+<template>
+	
+</template>
+<script type="text/javascript">
+	new Vue({
+		el:'#nav-city',
+		data:{
+			city:[],
+			url:'navMenu/menu.json'
+		},
+		methods:{
+			getData:function(){
+				console.log(this.url)
+				this.$http.get(this.url).then((response)=>{
+					console.log(response.data)
+					this.$set('city',response.data)
+				},(response)=>{
+					console.log('失败')
+				}).catch(function(response){
+					console.log(response)
+				})
+			}
+		},
+		mounted:function(){
+			this.getData()
+		}
+	})
+</script>
+<!-- <script src="navMenu/city.js"></script> -->

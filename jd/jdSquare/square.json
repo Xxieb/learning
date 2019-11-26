@@ -1,0 +1,52 @@
+{
+    "bigImg":["static/98.jpg","static/99.jpg"],
+    "squareContent":[{
+        "titleL":"企业购",
+        "titleR":"一站式企业采购平台",
+        "smallImg":["static/100.jpg","static/101.jpg"]
+    },{
+        "titleL":"京东图书",
+        "titleR":"遇见恰好的书",
+        "smallImg":["static/104.jpg","static/105.jpg"]
+    },{
+        "titleL":"Joy寻宝",
+        "titleR":"懂你的Joy",
+        "smallImg":["static/102.png","static/103.png"]
+    },{
+        "titleL":"生鲜馆",
+        "titleR":"尝遍天下先",
+        "smallImg":["static/106.jpg","static/107.jpg!.webp"]
+    },{
+        "titleL":"智能数码",
+        "titleR":"尽享玩物",
+        "smallImg":["static/108.jpg","static/109.jpg"]
+    },{
+        "titleL":"京东超市",
+        "titleR":"一站式囤生活好物",
+        "smallImg":["static/110.jpg","static/111.jpg"]
+    },{
+        "titleL":"京东手机",
+        "titleR":"一个极客的诞生",
+        "smallImg":["static/112.jpg","static/113.jpg"]
+    },{
+        "titleL":"京东金融",
+        "titleR":"会理财 懂生活",
+        "smallImg":["static/124.jpg","static/125.png"]
+    },{
+        "titleL":"生鲜馆",
+        "titleR":"尝遍天下鲜",
+        "smallImg":["static/126.jpg","static/127.jpg"]
+    },{
+        "titleL":"家装城",
+        "titleR":"用心装好家一站式购齐",
+        "smallImg":["static/128.jpg","static/129.jpg"]
+    },{
+        "titleL":"运动城",
+        "titleR":"生命在于运动",
+        "smallImg":["static/131.jpg","static/132.jpg"]
+    },{
+        "titleL":"大药房",
+        "titleR":"购正品药 免费换新",
+        "smallImg":["static/112.jpg","static/113.jpg"]
+    }]
+}
